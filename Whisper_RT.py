@@ -3,6 +3,7 @@ import pyaudio
 import numpy as np
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 
+#ty
 # Setup device and model
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
